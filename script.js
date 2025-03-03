@@ -13,9 +13,12 @@ actionButton.addEventListener('click',()=>{
     let newParagraph = document.createElement("p")
     let newButton = document.createElement("button")
 
-    newIcon.classList.add("fa-solid")
+    newIcon.classList.add("fa-regular")
     newIcon.classList.add("fa-square")
     newIcon.setAttribute("title","Mark done")
+
+    // <i class="fa-regular fa-square"></i>
+    // <i class="fa-regular fa-square-check"></i>
 
     newParagraph.innerHTML=listContent.value
 
